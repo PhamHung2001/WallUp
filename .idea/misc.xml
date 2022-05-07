@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project Kotlin/WallUp/app/src/main/res/layout/m003_detail_photo_fragment.xml" value="0.15106580166821132" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/custom_progress.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/ic_empty_bookmark.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/ic_launcher.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/ic_set_wallpaper.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/drawable/radius_imageview.xml" value="0.2135" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/adapter_item_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/item_base_on_topic_photo_adapter.xml" value="0.3009833262077811" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/item_categories_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/item_color_tone_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/item_image_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/item_suggest_image_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/item_topic_photo_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/m000_splash_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/m001_home_fragment.xml" value="0.25" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/m001_main_screen_fragment.xml" value="0.29717180244829045" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/m002_collection_photo_fragment.xml" value="0.3009833262077811" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/m002_list_topic_photo_fragment.xml" value="0.25" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/m003_detail_photo_fragment.xml" value="0.29717180244829045" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/view_holder_loading.xml" value="0.3009833262077811" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/view_holder_loading_collection.xml" value="0.3009833262077811" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/view_holder_loading_suggest_photo.xml" value="0.3009833262077811" />
+        <entry key="..\:/Project/WallUp/app/src/main/res/layout/view_list_topic_photo.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

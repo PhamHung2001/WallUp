@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WallUp</string>
+    <string name="txt_bring_the_world_to_you">Bring the world to you !</string>
+    <string name="wellcome_to_wall_up">Wellcome to Wall Up</string>
+    <string name="discover_unsplash_photos_and_find_best_wall_paper_for_you">Discover Unsplash photos and find best wall paper for you</string>
+    <string name="suggested_for_you">Suggested for you</string>
+    <string name="the_color_tone">The color tone</string>
+    <string name="categories">Categories</string>
+    <string name="love">Love</string>
+    <string name="nature">Nature</string>
+    <string name="_30_wallpaper_available">30 wallpaper available</string>
+</resources>
