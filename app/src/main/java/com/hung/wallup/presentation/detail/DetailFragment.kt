@@ -49,6 +49,7 @@ class DetailFragment : Fragment() {
             val downloadId = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1)
             if (downloadId == viewModel.mDownloadId) {
                 Toast.makeText(context, "Download Complete!", Toast.LENGTH_SHORT).show()
+                detailPhoto!!.isDownloaded = true
             }
         }
 
@@ -76,8 +77,9 @@ class DetailFragment : Fragment() {
         lifecycle.coroutineScope.launchWhenCreated {
             viewModel.detailState.collect { data ->
                 data.isStartDownload.apply {
-                    if (this) Toast.makeText(context, "Start Download!", Toast.LENGTH_SHORT).show()
-                    detailPhoto!!.isDownloaded = true
+                    if (this) {
+                        Toast.makeText(context, "Start Download!", Toast.LENGTH_SHORT).show()
+                    }
                 }
                 data.error?.let { Toast.makeText(context, it, Toast.LENGTH_SHORT).show() }
                 data.isFavorite.apply {
@@ -98,7 +100,7 @@ class DetailFragment : Fragment() {
                 Toast.makeText(
                     context,
                     "You have downloaded this image before!",
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
             }
         }
